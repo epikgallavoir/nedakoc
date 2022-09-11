@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://gitlab.com/kwoth/nadekobot
+	fetch = +refs/heads/v4:refs/remotes/origin/v4
+[branch "v4"]
+	remote = origin
+	merge = refs/heads/v4

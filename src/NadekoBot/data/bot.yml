@@ -29,7 +29,7 @@ forwardToAllOwners: false
 # they will receive this message. Leave empty for no response. The string which will be sent whenever someone DMs the bot.
 # Supports embeds. How it looks: https://puu.sh/B0BLV.png
 dmHelpText: |-
-  {"description": "Type `%prefix%h` for help."}
+  {"description": "Type `%prefix%h` for help, DMs an kec a?"}
 # Only users who send a DM to the bot containing one of the specified words will get a DmHelpText response.
 # Case insensitive.
 # Leave empty to reply with DmHelpText to every DM.
@@ -39,29 +39,30 @@ dmHelpTextKeywords:
   - cmds
   - module
   - can you do
+  - dit me may
 # This is the response for the .h command
 helpText: |-
   {
-    "title": "To invite me to your server, use this link",
+    "title": "To invite me to your server, use this link:",
     "description": "https://discordapp.com/oauth2/authorize?client_id={0}&scope=bot&permissions=66186303",
     "color": 53380,
-    "thumbnail": "https://i.imgur.com/nKYyqMK.png",
+    "thumbnail": "https://i.imgur.com/6CsOUG0.png",
     "fields": [
       {
         "name": "Useful help commands",
-        "value": "`%bot.prefix%modules` Lists all bot modules.
-  `%prefix%h CommandName` Shows some help about a specific command.
-  `%prefix%commands ModuleName` Lists all commands in a module.",
+        "value": "`%bot.prefix%mdls` Lists all bot modules.
+  `%prefix%cmds <mdl>` Lists all commands in a module.
+  `%prefix%h <cmd>` Shows some help about a specific command.",
         "inline": false
       },
       {
-        "name": "List of all Commands",
+        "name": "List of commands:",
         "value": "https://nadeko.bot/commands",
         "inline": false
       },
       {
-        "name": "Nadeko Support Server",
-        "value": "https://discord.nadeko.bot/ ",
+        "name": "Support? Found bugs?????",
+        "value": "Contact destablizer#0696",
         "inline": true
       }
     ]
@@ -85,4 +86,4 @@ groupGreets: false
 # Whether the bot will rotate through all specified statuses.
 # This setting can be changed via .ropl command.
 # See RotatingStatuses submodule in Administration.
-rotateStatuses: false
+rotateStatuses: true

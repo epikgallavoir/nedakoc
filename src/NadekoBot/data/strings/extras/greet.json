@@ -1,0 +1,29 @@
+{
+  "embeds": [
+    {
+      "description": "Chào mừng %user.mention% đã tới Discord của MineVN!",
+      "author": {
+        "name": "MineVN",
+        "icon_url": "https://i.imgur.com/ptsmqdL.png"
+      },
+      "footer": {
+        "text": "%server.name%(lv%server.boost_level%) - %user.joined_date% - %server.time%",
+        "icon_url": "https://i.imgur.com/ptsmqdL.png"
+      },
+      "thumbnail": "%user.avatar%",
+      "image": "https://i.imgur.com/VMpSP9S.png",
+      "fields": [
+        {
+          "name": "Trang thông tin",
+          "value": "https://www.minevn.net/",
+          "inline": true
+        },
+        {
+          "name": "Bạn cần hỗ trợ?",
+          "value": "Click vào [đây](https://discord.com/channels/371527717054578699/990451683073073202)",
+          "inline": true
+        }
+      ]
+    }
+  ]
+}

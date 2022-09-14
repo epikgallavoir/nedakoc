@@ -1,0 +1,17 @@
+{
+  "embeds": [
+    {
+      "description": "%user.mention% đã rời đi :( \nHẹn gặp lại bạn vào một ngày không xa. \n*\"Remember, you are here forever.\"*",
+      "author": {
+        "name": "MineVN",
+        "icon_url": "https://i.imgur.com/ptsmqdL.png"
+      },
+      "footer": {
+        "text": "%server.name%(lv%server.boost_level%) - %user.joined_date% - %server.time%",
+        "icon_url": "https://i.imgur.com/ptsmqdL.png"
+      },
+      "thumbnail": "%user.avatar%",
+      "image": "https://i.imgur.com/s0diNHC.png"
+    }
+  ]
+}

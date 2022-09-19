@@ -198,7 +198,7 @@ public class GreetService : INService, IReadyExecutor
         }
         catch (Exception ex)
         {
-            Log.Warning(ex, "Error embeding bye message");
+            Log.Warning(ex, "Error embedding bye message");
         }
     }
 
@@ -231,7 +231,7 @@ public class GreetService : INService, IReadyExecutor
         }
         catch (Exception ex)
         {
-            Log.Warning(ex, "Error embeding greet message");
+            Log.Warning(ex, "Error embedding greet message");
         }
     }
 

@@ -80,7 +80,7 @@ byetest:
     - "<user>"
     - "@minh145bvn"
 boost:
-  desc: "Toggles anouncements on the current channel when someone boosts the server."
+  desc: "Toggles announcements on the current channel when someone boosts the server."
   args:
     - ""
 boostmsg:
@@ -119,7 +119,7 @@ repeatinvoke:
   args:
     - "1"
 repeat:
-  desc: "Repeat a message once every specified amount of time in the CURRENT channel (default is 5m).\n You can instead specify time of day for the message to be repeated daily (SET YOUR TIMEZONE). If you've specified time of day, you can still override the default daily interval with your own interval.\n You can have up to 5 repeating messages on the server in total."
+  desc: "Repeat a message once every specified amount of time in the CURRENT channel (default is 5m). \nYou can instead specify time of day for the message to be repeated daily (SET YOUR TIMEZONE). If you've specified time of day, you can still override the default daily interval with your own interval. \nYou can have up to 5 repeating messages on the server in total."
   args:
     - <time> <msg>
     - "mmb"

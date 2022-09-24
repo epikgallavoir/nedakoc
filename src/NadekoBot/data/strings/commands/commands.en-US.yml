@@ -1263,39 +1263,67 @@ autohentai:
   args:
     - "<interval> <tags>|<tag-groups>"
 hentaibomb:
-  desc: "Shows a total 5 images (from gelbooru, danbooru, konachan and yandere). Tag(s) are optional but preferred. \n**No underage tags, you damn pedophiles.**"
+  desc: |-
+   Shows a total 5 images (from gelbooru, danbooru, konachan and yandere).
+   Tag(s) are optional but preferred.
+   **No underage tags, you damn pedophiles.**
   args:
     - "<tags>"
 yandere:
-  desc: "Shows a random image from yandere with a given tag. Tag(s) are optional but preferred. \n**No underage tags, you damn pedophiles.**"
+  desc: |-
+   Shows a random image from yandere.
+   Tag(s) are optional but preferred. 
+   **No underage tags, you damn pedophiles.**
   args:
     - "<tags>"
 danbooru:
-  desc: "Shows a random hentai image from danbooru with a given tag. Tag(s) are optional but preferred. \n**No underage tags, you damn pedophiles.**"
+  desc: |-
+   Shows a random hentai image from danbooru.
+   Tag(s) are optional but preferred. 
+   **No underage tags, you damn pedophiles.**
   args:
     - "<tags>"
 derpibooru:
-  desc: "Shows a random image from derpibooru with a given tag. Tag(s) are optional but preferred. \n**No underage tags, you damn pedophiles.**"
+  desc: |-
+   Shows a random image from derpibooru with a given tag. 
+   Tag(s) are optional but preferred. 
+   Don't worry, no one will judge... probably.
   args:
     - "<tags>"
 gelbooru:
-  desc: "Shows a random hentai image from gelbooru with a given tag. Tag(s) are optional but preferred. \n**No underage tags, you damn pedophiles.**"
+  desc: |- 
+   Shows a random hentai image from gelbooru.
+   Tag(s) are optional but preferred. 
+   **No underage tags, you damn pedophiles.**
   args:
     - "<tags>"
 sankaku:
-  desc: "Shows a random hentai image from sankakucomplex with a given tag. Tag(s) are optional but preferred. \n**No underage tags, you damn pedophiles.**"
+  desc: |-
+   Shows a random hentai image from sankakucomplex. 
+   Tag(s) are optional but preferred. 
+   **No underage tags, you damn pedophiles.**
   args:
     - "<tags>"
 rule34:
-  desc: "Shows a random image from rule34 with a given tag. Tag(s) are optional but preferred. \n**No underage tags, you damn pedophiles.**"
+  desc: |- 
+   Shows a random image from rule34.
+   Tag(s) are optional but preferred. 
+   **No underage tags, you damn pedophiles.**
   args:
     - "<tags>"
 e621:
-  desc: "Shows a random hentai image from e621 with a given tag. Tag(s) are optional but preferred. \n**No underage tags, you damn pedophiles.**"
+  desc: |-
+   Shows a random **furry** image from e621. 
+   Tag(s) are optional but preferred.
+   You... you know where this is going right? Right?
   args:
     - "<tags>"
 safebooru:
-  desc: "Shows a random image from safebooru with a given tag. Tag(s) are optional but preferred. \n**No underage tags, you damn pedophiles.**"
+  desc: |-
+   Shows a random image from safebooru. 
+   Tag(s) are optional but preferred. 
+   **No underage tags, you damn pedophiles.**
+   This is safebooru though...
   args:
     - "<tags>"
 boobs:

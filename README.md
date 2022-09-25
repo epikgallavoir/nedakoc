@@ -1,6 +1,7 @@
 ## nedakoc
 a ~~skid~~ fork of Kwoth's NadekoBot, which has:
 - more understandable string
+- (soon) vietnamese support (cmds and such)
   - yeah thats it
 
 ### Useful links

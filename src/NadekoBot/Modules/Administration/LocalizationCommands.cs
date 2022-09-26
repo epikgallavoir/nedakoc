@@ -36,6 +36,7 @@ public partial class Administration
             { "tr-TR", "Türkçe, Türkiye" },
             { "ts-TS", "Tsundere, You Baka" },
             { "uk-UA", "Українська, Україна" }
+			{ "vi-VN", "Tiếng Việt, Việt Nam"}
         };
 
         [Cmd]
